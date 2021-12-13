@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const Example1 = ({ author, created_at, num_comments, title, points, url }) => (
+const Post = ({ author, created_at, num_comments, title, points, url }) => (
   <li className="post">
     <div className="description">
       <a href={url} className="title">
@@ -17,7 +17,7 @@ const Example1 = ({ author, created_at, num_comments, title, points, url }) => (
   </li>
 );
 
-Example1.propTypes = {
+Post.propTypes = {
   author: PropTypes.string,
   created_at: PropTypes.string,
   num_comments: PropTypes.number,
@@ -26,7 +26,7 @@ Example1.propTypes = {
   url: PropTypes.string,
 };
 
-Example1.defaultProps = {
+Post.defaultProps = {
   author: "Yauhen",
   created_at: "",
   num_comments: 0,
@@ -35,4 +35,4 @@ Example1.defaultProps = {
   url: "#",
 };
 
-export default Example1;
+export default Post;

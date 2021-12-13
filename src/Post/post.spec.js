@@ -1,9 +1,9 @@
 import React from "react";
-import Example1 from "./example1";
+import Post from "./post";
 
-const setUp = (props) => shallow(<Example1 {...props} />);
+const setUp = (props) => shallow(<Post {...props} />);
 
-describe("should render Example_1 component", () => {
+describe("should render Post component", () => {
   let component;
   beforeEach(() => {
     component = setUp();

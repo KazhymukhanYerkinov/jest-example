@@ -1,7 +1,7 @@
 
 import React, { Component } from "react";
 
-import Post from "../Example_1/example1";
+import Post from "../Post/post";
 import Title from "../Title/title";
 import Select from "../Select/select";
 import Input from "../Input/input";
